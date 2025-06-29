@@ -86,7 +86,7 @@ export class Service {
 
 
     //file service
-    async uploadFime(file){
+    async uploadFile(file){
         try {
 
             return await this.bucket.createFile(
@@ -101,7 +101,7 @@ export class Service {
         }
     }
 
-    async dleeteFime(fileId){
+    async deleteFile(fileId){
         try {
 
             return await this.bucket.deleteFile(
