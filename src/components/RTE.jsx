@@ -38,3 +38,5 @@ function RTE({name,control,label, defaultValue}){
     )
 
 }
+
+export default RTE;
